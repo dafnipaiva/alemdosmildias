@@ -1,0 +1,300 @@
+
+/* Reset e fonte base */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #2b3a3f;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+  }
+  
+  /* Navbar */
+  .custom-navbar {
+    background-color: #365b6d;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .custom-navbar nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  .custom-navbar nav a:hover {
+    color: #63bee2;
+  }
+  .logo {
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    padding: 50px 20px 70px;
+    text-align: center;
+    color: #fdf7f4;
+    background: linear-gradient(rgba(54, 91, 109, 0.75), rgba(54, 91, 109, 0.85)),
+                url('./assets/hero-bg.jpg') no-repeat center center / cover;
+    background-attachment: fixed;
+  }
+  .hero-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  .hero-subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  .hero-text {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+  }
+
+  
+  /* Seções */
+  section {
+    padding: 50px 20px;
+  }
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #365b6d;
+    margin-bottom: 40px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo de fundo leve para seções */
+  .section-light {
+    background-color: #fdf7f4;
+  }
+  .section-light-alt {
+    background-color: #e6f7f4;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  }
+  .card-img {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .card-title {
+    font-size: 1.75rem;
+    color: #365b6d;
+    margin-bottom: 1rem;
+  }
+  .card-text {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    text-align: justify;
+  }
+  .card-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    color: #2b3a3f;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    text-align: left;
+  }
+  
+  /* Produtos */
+  .produtos-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .produto {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .destaque {
+    border-left: 6px solid transparent;
+  }
+  .laranja {
+    border-left-color: #e1876c !important;
+  }
+  .azul {
+    border-left-color: #3893c1 !important;
+  }
+  .verde {
+    border-left-color: #7eb9b0 !important;
+  }
+  .produto h3 {
+    color: #365b6d;
+    margin-bottom: 1rem;
+  }
+  .produto p {
+    color: #2b3a3f;
+    margin-bottom: 1rem;
+  }
+  .produto a {
+    color: #3893c1;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .produto a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Além dos Mil Dias */
+  .sobre-projeto {
+    background-color: #fdf7f4;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .logo-projeto {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  .card-estilo {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 2.5rem 2rem;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    max-width: 900px;
+    margin: 2rem auto 0;
+    position: relative;
+    text-align: left;
+  }
+  .card-estilo .aspas {
+    font-size: 6rem;
+    line-height: 1;
+    color: #e1876c;
+    position: absolute;
+    top: -24px;
+    left: 2px;
+    font-family: serif;
+    opacity: 0.4;
+  }
+  .card-estilo p {
+    font-size: 1.1rem;
+    color: #2b3a3f;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  .card-estilo .intro {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2b3a3f;
+    margin-bottom: 1rem;
+  }
+  
+  /* Seção Final */
+  .final-cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #fdf7f4;
+    color: #2b3a3f;
+  }
+  .final-cta .section-title {
+    color: #365b6d;
+  }
+  .final-cta .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .final-cta img {
+    height: 32px;
+    width: 32px;
+    transition: transform 0.2s ease;
+  }
+  .final-cta img:hover {
+    transform: scale(1.1);
+  }
+  .cta-text {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #48435a;
+    color: #fdf7f4;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  /* Tabs */
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .tab-link {
+    padding: 0.75rem 1.5rem;
+    background-color: #e6f7f4;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  .tab-link:hover,
+  .tab-link.active {
+    background-color: #7eb9b0;
+    color: white;
+  }
+  .tab-content {
+    display: none;
+  }
+  .tab-content.active {
+    display: block;
+  }
+  
+  /* Media Queries */
+  @media (min-width: 768px) {
+    .card-text {
+      font-size: 1.2rem;
+      line-height: 1.8;
+    }
+  
+    .produtos-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  

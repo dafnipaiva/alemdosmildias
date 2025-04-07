@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Além dos Mil Dias</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./assets/amd-logo.png" type="image/png" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="custom-navbar">
+      <img
+        src="./assets/amd-logo.png"
+        alt="Logo Além dos Mil Dias"
+        class="logo"
+      />
+      <nav>
+        <a href="ebook.html">eBook</a>
+        <a href="mentoria.html">Mentoria</a>
+        <a href="consulta.html">Consultas</a>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <h1 class="hero-title fade-in typing">
+          Bem-vindo ao Além dos Mil Dias
+        </h1>
+      </div>
+    </section>
+
+    <!-- PRODUTOS -->
+    <section id="produtos" class="produtos section-light-alt">
+      <div class="container">
+        <h2 class="section-title">Produtos e Serviços</h2>
+        <div class="produtos-grid">
+          <div class="card produto destaque laranja">
+            <h3>eBook: Introdução Alimentar Descomplicada</h3>
+            <p>
+              Guia Essencial que toda família precisa com +100 páginas de
+              soluções práticas para cada etapa da Introdução Alimentar.
+            </p>
+            <a href="/ebook.html">Saiba mais →</a>
+          </div>
+          <div class="card produto destaque verde">
+            <h3>Mentoria em Grupo: Descomplicando os Mil Dias</h3>
+            <p>
+              Mentoria com encontros e suporte para transformar a rotina da sua
+              família com segurança, leveza e conhecimento.
+            </p>
+            <a href="/mentoria.html">Quero participar →</a>
+          </div>
+          <div class="card produto destaque azul">
+            <h3>Consulta com Nutricionista ou Fisioterapeuta</h3>
+            <p>
+              Sessão individual com a Nutricionista Dafni ou Fisioterapeuta
+              Maite para dúvidas específicas e orientações individualizadas.
+            </p>
+            <a href="/consulta.html">Agendar consulta →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Além dos Mil Dias -->
+    <section class="sobre-projeto">
+      <div class="container">
+        <img
+          src="./assets/amd-logo.png"
+          alt="Logo Além dos Mil Dias"
+          class="logo-projeto"
+        />
+        <h2 class="section-title">Além dos Mil Dias</h2>
+        <div class="box-texto card-estilo">
+          <span class="aspas">“</span>
+          <p class="intro">
+            Você já ouviu falar nos primeiros mil dias de vida?
+          </p>
+          <p>
+            Esse é o período que vai da concepção até os 2 anos de idade — e é
+            considerado por especialistas como a fase de ouro do desenvolvimento
+            humano. Durante essa janela única, cada escolha contribui para
+            formar as bases da saúde, do comportamento e do bem-estar por toda a
+            vida.
+          </p>
+          <p>
+            É um momento em que tudo importa. Até os gestos mais simples, quando
+            orientados com consciência, podem gerar impactos positivos que se
+            estendem por décadas.
+          </p>
+          <p class="intro">Mas por que Além dos Mil Dias?</p>
+          <p>
+            Porque o desenvolvimento não para aos 2 anos. A infância continua
+            exigindo decisões importantes, dúvidas, aprendizados. E as famílias
+            seguem precisando de apoio, acolhimento e informação confiável.
+          </p>
+          <p>
+            Por isso, nosso compromisso vai além. Falamos dos mil dias, sim —
+            mas também de tudo o que vem depois.
+          </p>
+          <p>
+            Com linguagem acessível, base científica e muito cuidado, estamos
+            aqui para caminhar com você em cada etapa.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE NÓS -->
+    <section id="sobre" class="sobre-nos section-light-alt">
+      <div class="container">
+        <h2 class="section-title fade-in">Quem Somos</h2>
+        <div class="tabs fade-in">
+          <button class="tab-link active" onclick="openTab(event, 'dafni')">
+            Dafni Paiva
+          </button>
+          <button class="tab-link" onclick="openTab(event, 'maite')">
+            Maite Cairolli
+          </button>
+        </div>
+
+        <div id="dafni" class="tab-content active">
+          <div class="card">
+            <img src="./assets/dafni.png" alt="Dafni" class="card-img" />
+            <h3 class="card-title">Dafni Paiva</h3>
+            <p class="card-text">
+              Nutricionista há quase 20 anos, Sou Mestre em Ciências, com
+              Especializações em Pediatria, Nutrição Clínica, Saúde Pública e
+              Fitoterapia. Mais recentemente, fui para o Canadá, onde me formei
+              na área de Tecnologia — não apenas pela fluência no inglês, mas
+              pela convicção de que saúde, educação e tecnologia precisam
+              caminhar juntas. Minha história com a comida não começou nos
+              livros — começou na infância. Fui uma criança seletiva… e sigo
+              sendo uma adulta seletiva. A diferença? Usei tudo o que aprendi ao
+              longo dos anos para lidar com isso com mais consciência e leveza.
+            </p>
+            <p class="card-text">
+              Trabalhei por quase 15 anos no SUS, com destaque para:
+            </p>
+            <ul class="card-list">
+              <li>6 anos em Unidades Básicas de Saúde (UBS)</li>
+              <li>4 anos em Ambulatórios de Pediatria</li>
+              <li>
+                4 anos em Educação em Saúde — desenvolvendo cursos, materiais,
+                capacitações e monitoramento de indicadores
+              </li>
+            </ul>
+            <p class="card-text">
+              Hoje, compartilho tudo isso no <strong>@alemdosmildias</strong>,
+              com quem acredita que comer bem vai além do prato — é sobre
+              vínculo, afeto e caminhos possíveis.
+            </p>
+          </div>
+        </div>
+
+        <div id="maite" class="tab-content">
+          <div class="card">
+            <img src="./assets/maite.png" alt="Maite" class="card-img" />
+            <h3 class="card-title">Maite Cairolli</h3>
+            <p class="card-text">
+              Sou mãe da Katarina e posso dizer com toda a verdade: a
+              maternidade virou meu mundo do avesso. O corpo muda, a rotina
+              desaba, as emoções transbordam… e a gente tenta se reconhecer no
+              meio do caos.<br />
+              Sou fisioterapeuta há mais de 15 anos, com Especializações em
+              Fisiologia do Exercício, Pilates e Saúde Pública.
+            </p>
+            <p class="card-text">
+              Trabalhei por quase 10 anos no SUS, com experiências em:
+            </p>
+            <ul class="card-list">
+              <li>
+                Quase 7 anos como fisioterapeuta em UBS e em Centro
+                Especializado em Reabilitação
+              </li>
+              <li>
+                3 anos na área de Educação em Saúde — promovendo ações
+                educativas, treinamentos e análise de indicadores
+              </li>
+              <li>
+                Também trabalhei com gestantes por meio de Pilates e terapia
+                manual, promovendo conforto físico e bem-estar no período
+                gestacional
+              </li>
+            </ul>
+            <p class="card-text">
+              Hoje é isso que quero construir com você aqui no
+              <strong>@alemdosmildias</strong>: um espaço de acolhimento,
+              orientação e segurança, para que você possa viver esse momento com
+              menos culpa e mais leveza.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO FINAL -->
+    <section class="final-cta section-light">
+      <div class="container">
+        <h2 class="section-title">Pronto para transformar sua jornada?</h2>
+        <p class="cta-text">
+          Conte conosco para uma jornada mais leve. Siga nossas redes!
+        </p>
+        <div class="social-icons">
+          <a
+            href="https://www.instagram.com/alemdosmildias/"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <img src="./assets/instagram.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://www.tiktok.com/@alemdosmildias?lang=pt-BR"
+            target="_blank"
+            aria-label="TikTok"
+          >
+            <img src="./assets/tiktok.png" alt="TikTok" />
+          </a>
+          <a
+            href="https://www.youtube.com/@alemdosmildias"
+            target="_blank"
+            aria-label="YouTube"
+          >
+            <img src="./assets/youtube.png" alt="YouTube" />
+          </a>
+        </div>
+        <p class="cta-text" style="margin-top: 2rem; font-weight: 600">
+          Contato:
+          <a
+            href="mailto:alemdosmildias@gmail.com"
+            style="color: #365b6d; text-decoration: underline"
+          >
+            alemdosmildias@gmail.com
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>&copy; 2025 Além dos Mil Dias. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
