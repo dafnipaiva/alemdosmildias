@@ -383,7 +383,50 @@ section {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.3; }
   }
-  
+
+/* Preço antigo e atual com mais destaque */
+.preco-antigo {
+  font-size: 1.4rem;
+  color: #a94442;
+  text-decoration: line-through;
+  background-color: #fbeaea;
+  padding: 4px 10px;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: bold;
+  margin: 0;
+}
+
+.preco-atual {
+  font-size: 3.2rem;
+  color: #3893c1;
+  font-weight: 900;
+  margin: 0.3rem 0;
+  animation: destaqueZoom 1.6s infinite ease-in-out;
+  letter-spacing: -1px;
+}
+
+/* Animação de zoom no preço */
+@keyframes destaqueZoom {
+  0% { transform: scale(1); text-shadow: none; }
+  50% { transform: scale(1.07); text-shadow: 0 0 12px rgba(224, 49, 49, 0.4); }
+  100% { transform: scale(1); text-shadow: none; }
+}
+
+/* Urgência com mais impacto visual */
+.oferta-urgencia {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #b41616;
+  background: #fff0f0;
+  padding: 8px 16px;
+  border: 2px solid #ff9999;
+  border-radius: 8px;
+  animation: piscarRapido 1.2s infinite;
+  display: inline-block;
+  margin-top: 1.2rem;
+}
+
   
 /* Footer */
 .footer {
