@@ -11,8 +11,8 @@ body {
   
   /* Navbar */
   .custom-navbar {
-    background-color: #365b6d;
-    color: white;
+    background-color: #ffffff;
+    color: #48435a;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +23,7 @@ body {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   }
   .custom-navbar nav a {
-    color: white;
+    color: #48435a;
     margin-left: 1.5rem;
     text-decoration: none;
     font-weight: 600;
@@ -37,32 +37,6 @@ body {
     width: 56px;
     border-radius: 50%;
   }
-  
-  /* Hero Section */
-  .hero-section {
-    padding: 50px 20px 70px;
-    text-align: center;
-    color: #fdf7f4;
-    background: linear-gradient(rgba(54, 91, 109, 0.75), rgba(54, 91, 109, 0.85)),
-                url('./assets/hero-bg.jpg') no-repeat center center / cover;
-    background-attachment: fixed;
-  }
-  .hero-title {
-    font-size: 2.5rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-  }
-  .hero-subtitle {
-    font-size: 1.25rem;
-    margin-bottom: 2.5rem;
-  }
-  .hero-text {
-    font-size: 1.1rem;
-    max-width: 700px;
-    margin: 0 auto 2rem;
-    line-height: 1.6;
-  }
-
   
   /* Seções */
   section {
@@ -85,7 +59,7 @@ body {
     background-color: #fdf7f4;
   }
   .section-light-alt {
-    background-color: #e6f7f4;
+    background-color: #f2f9f7;
   }
   
   /* Cards */
@@ -180,11 +154,14 @@ body {
     text-align: center;
   }
   .logo-projeto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-bottom: 1rem;
-  }
+  }  
   .card-estilo {
     background-color: #ffffff;
     border-radius: 12px;

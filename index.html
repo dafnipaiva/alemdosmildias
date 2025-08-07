@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Além dos Mil Dias</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&display=swap"
@@ -14,26 +15,40 @@
   <body>
     <!-- HEADER -->
     <header class="custom-navbar">
-      <img
-        src="./assets/amd-logo.png"
-        alt="Logo Além dos Mil Dias"
-        class="logo"
-      />
-      <nav>
-        <a href="ebook.html">eBook</a>
+      <a href="index.html" class="cursor-pointer">
+        <img
+          src="./assets/amd-logo.png"
+          alt="Logo Além dos Mil Dias"
+          class="logo"
+        />
+      </a>
+      <nav class="hidden md:flex">
+        <a href="kit-salva-refeicao.html">Kit Salva-Refeição</a>
         <a href="mentoria.html">Mentoria</a>
         <a href="consulta.html">Consultas</a>
-      </nav>
+      </nav>      
     </header>
 
     <!-- HERO SECTION -->
-    <section class="hero-section">
-      <div class="hero-container">
-        <h1 class="hero-title fade-in typing">
-          Bem-vindo ao Além dos Mil Dias
+    <section class="min-h-[80vh] flex items-center justify-center px-6 sm:px-12 text-white"
+    style="background-color: #48435a;">
+        <div class="max-w-4xl text-center space-y-6">
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight">
+          Além dos Mil Dias
         </h1>
+        <h2 class="text-2xl sm:text-3xl font-semibold">
+          Descomplique a gestação, alimentação e o desenvolvimento motor
+        </h2>
+        <p class="text-lg sm:text-xl font-medium text-white/90">
+          Do ideal ao possível. Do possível ao real.
+        </p>
+        <p class="text-base sm:text-lg text-white/80">
+          Ajudamos famílias a viverem cada etapa com clareza e confiança.
+        </p>       
+        </div>
       </div>
     </section>
+    
 
     <!-- PRODUTOS -->
     <section id="produtos" class="produtos section-light-alt">
@@ -41,15 +56,14 @@
         <h2 class="section-title">Produtos e Serviços</h2>
         <div class="produtos-grid">
           <div class="card produto destaque laranja">
-            <h3>eBook: Introdução Alimentar Descomplicada</h3>
+            <h3 class="font-bold">Kit Salva-Refeição: Descomplicando a Recusa na Hora de Comer</h3>
             <p>
-              Guia Essencial que toda família precisa com +100 páginas de
-              soluções práticas para cada etapa da Introdução Alimentar.
+              Com esse eBook você identifica a causa, evita agravar o problema e entende se é só uma fase ou hora de buscar ajuda. (1 a 2 anos)
             </p>
-            <a href="/ebook.html">Saiba mais →</a>
+            <a href="/kit-salva-refeicao.html">Saiba mais →</a>
           </div>
           <div class="card produto destaque verde">
-            <h3>Mentoria em Grupo: Descomplicando os Mil Dias</h3>
+            <h3 class="font-bold">Mentoria em Grupo: Descomplicando os Mil Dias</h3>
             <p>
               Mentoria com encontros e suporte para transformar a rotina da sua
               família com segurança, leveza e conhecimento.
@@ -57,7 +71,7 @@
             <a href="/mentoria.html">Quero participar →</a>
           </div>
           <div class="card produto destaque azul">
-            <h3>Consulta com Nutricionista ou Fisioterapeuta</h3>
+            <h3 class="font-bold">Consulta com Nutricionista ou Fisioterapeuta</h3>
             <p>
               Sessão individual com a Nutricionista Dafni ou Fisioterapeuta
               Maite para dúvidas específicas e orientações individualizadas.
@@ -83,7 +97,7 @@
             Você já ouviu falar nos primeiros mil dias de vida?
           </p>
           <p>
-            Esse é o período que vai da concepção até os 2 anos de idade — e é
+            Esse é o período que vai da concepção até os 2 anos de idade e é
             considerado por especialistas como a fase de ouro do desenvolvimento
             humano. Durante essa janela única, cada escolha contribui para
             formar as bases da saúde, do comportamento e do bem-estar por toda a
@@ -101,7 +115,7 @@
             seguem precisando de apoio, acolhimento e informação confiável.
           </p>
           <p>
-            Por isso, nosso compromisso vai além. Falamos dos mil dias, sim —
+            Por isso, nosso compromisso vai além. Falamos dos mil dias, sim...
             mas também de tudo o que vem depois.
           </p>
           <p>
@@ -133,10 +147,10 @@
               Nutricionista há quase 20 anos, Sou Mestre em Ciências, com
               Especializações em Pediatria, Nutrição Clínica, Saúde Pública e
               Fitoterapia. Mais recentemente, fui para o Canadá, onde me formei
-              na área de Tecnologia — não apenas pela fluência no inglês, mas
+              na área de Tecnologia, não apenas pela fluência no inglês, mas
               pela convicção de que saúde, educação e tecnologia precisam
               caminhar juntas. Minha história com a comida não começou nos
-              livros — começou na infância. Fui uma criança seletiva… e sigo
+              livros, começou na infância. Fui uma criança seletiva… e sigo
               sendo uma adulta seletiva. A diferença? Usei tudo o que aprendi ao
               longo dos anos para lidar com isso com mais consciência e leveza.
             </p>
@@ -153,7 +167,7 @@
             </ul>
             <p class="card-text">
               Hoje, compartilho tudo isso no <strong>@alemdosmildias</strong>,
-              com quem acredita que comer bem vai além do prato — é sobre
+              com quem acredita que comer bem vai além do prato, é sobre
               vínculo, afeto e caminhos possíveis.
             </p>
           </div>

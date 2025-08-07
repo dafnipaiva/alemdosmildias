@@ -31,7 +31,7 @@ body {
     padding: 0 20px;
 }
 
-/* Cabeçalho - SEÇÃO ATUALIZADA */
+/* Cabeçalho */
 header {
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
@@ -54,7 +54,7 @@ header .container {
 .logo {
     width: 50px;
     display: block;
-    margin-right: auto; /* força o logo a ficar na esquerda */
+    margin-right: auto;
 }
 
 .brand-name {
@@ -66,9 +66,9 @@ header .container {
   }
   
 
-/* Seção Herói */
+/* Hero Section */
 #hero {
-    padding: 120px 0 80px 0; /* Aumentado o padding-top para compensar o header maior */
+    padding: 120px 0 80px 0;
     background: linear-gradient(135deg, var(--primary-color), var(--dark-blue));
     color: var(--light-text-color);
     text-align: center;
@@ -161,7 +161,7 @@ section h2 {
     color: #555;
 }
 
-/* Seção Problema */
+/* Problem Section */
 .problem-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

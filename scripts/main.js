@@ -1,16 +1,5 @@
 // scripts/main.js
 
-// 1. Efeito de digitação no título da Hero
-function typeEffect(element, speed = 60) {
-  const text = element.textContent.trim();
-  element.textContent = "";
-  [...text].forEach((char, i) => {
-    setTimeout(() => {
-      element.textContent += char;
-    }, i * speed);
-  });
-}
-
 // 2. Tabs "Quem Somos"
 function openTab(evt, tabId) {
   const tabContents = document.querySelectorAll('.tab-content');
